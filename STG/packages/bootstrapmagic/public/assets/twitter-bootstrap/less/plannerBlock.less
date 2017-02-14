@@ -1,0 +1,465 @@
+
+    .imgWrap
+    {
+      background-color: #F0F0F0;
+      margin-bottom: 20px;
+      max-width: 370px;
+      float: left;
+      margin-left: 10px;
+      position: relative;
+
+      div.featuredThumb 
+      {
+
+                max-width: 370px;
+                max-height: 250px;
+                overflow: hidden;
+                position: relative;
+                div.description-panel
+                {
+                        background: #FFF;
+                        position: absolute;
+                        height: 270px;
+                        top: 0px;
+                        left: 0px;
+                        right: 0px;
+                        display: none;
+                        padding: 15px 20px 20px 20px;
+                        z-index: 1;
+                        
+                        div.slider-header
+                        {
+                            border-bottom: 1px solid #CCC;
+                            height: auto !important;
+                            margin-bottom: 10px;
+                            clear: both;
+                            div.planner-popup-heading 
+                            {
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                padding-bottom: 7px;
+                            }
+                            a.planner-popup-close
+                            {
+                                position: absolute;
+                                right: 17px;
+                                top: 8px;
+                                i 
+                                {
+                                    color: #999;
+                                    font-size: 26px;
+                                    
+                                }
+                            }
+                        }
+                }
+
+                div.planner-popup-lcolumn
+                {
+                    float: left;
+                    width: 58%;
+                    
+                }
+                div.planner-popup-rcolumn
+                {
+                    float: right;
+                    width: 42%;
+                }
+                div.planner-popup-indiv
+               {
+                        text-transform: uppercase;
+                        padding-bottom: 8px;
+               }
+
+              a.infoTrigger 
+              {
+                background: @imageHeaderInfoTriggerBackgroundColor;
+                text-align: center;
+                line-height: 16px;
+                color: @imageHeaderInfoTriggerColor;
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                width: 30px;
+                height: 25px;
+                padding-top: 5px;
+              }
+         }
+         
+         div.featuredWrap
+         {
+            color: @imageHeaderFontColor;
+            background-color: @imageHeaderBackgroundColor;
+            margin: 0;
+            padding: 10px 10px 7px 10px;
+            position: absolute;
+            min-height: 41px;
+            top: 12px;
+            width: 70%;
+
+            font-family:@imageHeaderFontFamily;
+            font-style:@imageHeaderFontStyle;
+            font-weight:@imageHeaderFontWeight;
+            h5
+            {
+                text-transform: uppercase;
+                font-size: @imageHeaderFontSize;
+                font-weight: normal;
+                font-weight:@imageHeaderFontWeight;
+                margin: 0;
+                .opaque5
+                    {
+                        opacity: .5;
+                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+                    }
+            }
+            span.planner-room-edit
+            {
+                font-size: @imageHeaderFontSize;
+                text-transform: uppercase;
+            }
+            span.planner-room-edit 
+             {
+                font-size: @imageHeaderFontSize;
+                text-transform: uppercase;
+             }
+             span.planner-room-edit
+             {
+                a
+                {
+                    font-size: @imageHeaderFontSize;;
+                    color: @imageHeaderPencilColor;
+                    text-decoration: none;
+                    
+                   
+                   
+                }
+             }
+         }
+         
+         div.featuredDetails
+         {
+            background: #FFF;
+            color: @featuredDetailsFontColor;
+            font-size: @featuredDetailsFontSize;
+            font-weight:@featuredDetailsFontWeight;
+            font-family:@featuredDetailsFontFamily;
+            font-style:@featuredDetailsFontStyle;
+
+            clear: both;
+            padding: 15px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 10px;
+            min-height: 75px;
+            ul.nav
+            {
+                margin-left: 0;
+                list-style: none;
+            }
+            ul.planner-tab-nav
+            {
+                color:@tabContentFontColor;
+                font-style:@tabContentFontStyle;
+                font-family:@tabContentFontFamily;
+                font-weight:@tabContentFontWeight;
+                font-size:@tabContentFontSize;
+
+                border-bottom: 1px @tabLineColor solid;
+                padding: 0;
+                li.planner-in-out
+                {
+                    border: 1px @tabLineColor solid;
+                    border-bottom: 1px #FFF solid;
+                    text-align: center !important;
+                    line-height: 24px;
+                    margin-left: 20px;
+                    padding-top: 5px;
+                    padding-left: 15px;
+                    padding-bottom: 5px;
+                    width: 44% !important;
+                    position: relative;
+                    top: 1px;
+                    span.planner-select-date
+                    {
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                    span.planner-select-date-edit
+                    {
+                        i
+                        {
+                            font-size: 20px;
+                            line-height: 20px;
+                            margin-left: 8px;
+                            text-decoration: none;
+                            color:@tabContentPencilColor;
+                        }
+                    }
+
+               
+                }
+                
+                li.active
+                {
+                    border: 1px #609DD8 solid;
+                    border-bottom: 1px #FFF solid;
+                    text-align: center !important;
+                    line-height: 24px;
+                    margin-left: 20px;
+                   
+                }
+                li.planner-accome-price-det
+                {
+                    font-size: 15px;
+                    padding-top: 7px;
+                    width: 45% !important;
+                   
+                }
+            }
+
+            div.rooms-panel
+            {
+                   display: none;
+            }
+            div.planner-accom-container 
+            {
+                float: none !important;
+                margin: auto;
+                margin-left: 15px;
+                margin-right: 15px;
+                div.planner-accom
+                {
+                    width: 100%;
+                    div.edit-expand-div-new
+                    {
+                        border: 1px @featuredDetailsBorderColor solid;
+                        background: @featuredDetailsBackgroundColor;
+                        float: none !important;
+                        padding: @featuredDetailsPadding;
+                        margin-bottom: 25px;
+                        position: relative;
+                        margin-top: 10px;
+                        div.planner-edit-partition-left
+                        {   
+                            width: 49%;
+                            float:left;
+                        }
+                        div.planner-edit-partition-right
+                        {
+                            width: 49%;
+                            float: right;
+                            div.bootstrap-select 
+                            {
+                                    width: 100%;
+                                    border-radius: 0px !important;
+                                    float: none;
+                                    display: inline-block;
+                                    margin-bottom: 10px;
+                                    margin-left: 0;
+                                    button.btn 
+                                    {
+                                       background: #fff;
+                                       border-radius: 0;
+                                       line-height: 27px;
+                                       font-size: @featuredDetailsSelectFontSize;
+                                       color: @featuredDetailsSelectFontColor;
+                                       margin-top: 0px;
+                                       height: 39px;
+                                       width: 100%;
+                                       font-family:@featuredDetailsSelectFontFamily;
+                                       font-style:@featuredDetailsSelectFontStyle;
+                                       font-weight:@featuredDetailsSelectFontWeight;
+                                    }
+                            }
+                            
+                           div.filter-option 
+                                {
+                                    overflow: hidden;
+                                    position: absolute;
+                                    left: 12px;
+                                    right: 25px;
+                                    text-align: left;
+                                    min-width: inherit
+                                }
+                          div.caret 
+                            {
+                                position: absolute;
+                                right: 12px;
+                                top: 10px;
+                                margin-top: 8px;
+                                margin-left: 0;
+                                display: inline-block;
+                                width: 0;
+                                height: 0;
+                                vertical-align: top;
+                                border-top: 4px solid #000;
+                                border-right: 4px solid rgba(0, 0, 0, 0);
+                                border-left: 4px solid rgba(0, 0, 0, 0);
+                                content: "";
+                            }
+
+                            select.end_date
+                            {
+                                line-height: 41px;
+                                height: 41px;
+                                width: auto;
+                                margin-bottom: 0px;
+                                border: 1px solid #CCC;
+                                background-color: #FFF;
+                            }
+                        }
+                        input
+                        {
+                            color: @featuredDetailsInputFontColor;
+                            font-size: @featuredDetailsInputFontSize;
+                            font-family:@featuredDetailsInputFontFamily;
+                            font-weight:@featuredDetailsInputFontWeight;
+                            font-style:@featuredDetailsInputFontStyle;
+                            border: 1px #AAA solid;
+                            padding-top: 9px;
+                            width: 92%;
+                            border-radius: 0px !important;
+                            padding-bottom: 10px;
+                        
+                            display: inline-block;
+                            
+                        }
+
+                        input.list_available_rooms
+                        {
+                            width: 310px;
+
+                        }
+                    }
+
+                }
+
+            }
+      
+         }
+
+     
+
+    .dropdown-menu {
+        padding: 0;
+        border: 0;
+        .dropdown-menu.inner {
+            position: static;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        
+}
+
+.planner-bottom-links button.add-to-cart
+{
+
+    border: none;
+    background: #FFF;
+    color: @featuredDetailsAddCartBlockFontColor;
+    font-family:@featuredDetailsAddCartBlockFontFamily;
+    font-size:@featuredDetailsAddCartBlockFontSize;
+    font-weight:@featuredDetailsAddCartBlockFontWeight;
+    font-style:@featuredDetailsAddCartBlockFontStyle;
+
+    padding: 0px;
+    padding-left:12px;
+
+
+}    
+
+.planner-bottom-links button.add-to-cart i
+{
+    border: 2px solid @featuredDetailsAddCartBlockFontColor;
+    border-right: 17px solid @featuredDetailsAddCartBlockFontColor;
+    font-size: @featuredDetailsAddCartBlockFontSize;
+    padding: 4px 8px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.planner-accom-edit-delete li a i {
+color: #333;
+display: inline-block;
+font-size: 19px;
+
+}
+.planner-accom-edit-delete
+{
+    float:right;
+}
+.update_planner 
+{
+    background: #FFF;
+    border: 1px @featuredDetailsUpdateBlockBorderColor solid;
+    color: @featuredDetailsUpdateBlockFontColor;
+    font-size:@featuredDetailsUpdateBlockFontSize;
+    font-family:@featuredDetailsUpdateBlockFontFamily;
+    font-style:@featuredDetailsUpdateBlockFontStyle;
+    font-weight:@featuredDetailsUpdateBlockFontWeight;
+
+    width: 100% !important;
+    box-shadow: none;
+    height: 37px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.planner-accom-indiv button.btn 
+{
+    border: 2px #666 solid;
+
+}
+.planner-accom-indiv button.btn 
+{
+    background: #666;
+    height: 22px;
+    width: 22px;
+    margin-right: 7px;
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    top: -1px;
+}
+.btn
+
+{
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    
+}
+ 
+
+
+
+.planner-room-select-area {
+    margin-left: 0;
+    li {
+        text-align: left;
+
+        label {
+            padding-left: 0;
+        }
+    }
+}
+
+ul.dropdown-menu li > a {
+
+line-height: 20px;
+color: @featuredDetailsSelectFontColor;
+white-space: nowrap;
+
+ font-family:@featuredDetailsSelectFontFamily;
+ font-style:@featuredDetailsSelectFontStyle;
+ font-weight:@featuredDetailsSelectFontWeight;
+ font-size:@featuredDetailsSelectFontSize;
+
+}
+
+}

@@ -1,0 +1,106 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>{{appName}} - {{title}}</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="node.js, express, mongoose, mongodb, angularjs, swig">
+    <meta name="description" content="MEAN - A Modern Stack: MongoDB, ExpressJS, AngularJS, NodeJS. (BONUS: Passport User Support).">
+
+    <meta property="fb:app_id" content="APP_ID">
+    <meta property="og:title" content="{{appName}} - {{title}}">
+    <meta property="og:description" content="MEAN - A Modern Stack: MongoDB, ExpressJS, AngularJS, NodeJS. (BONUS: Passport User Support).">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="APP_URL">
+    <meta property="og:image" content="APP_LOGO">
+    <meta property="og:site_name" content="MEAN - A Modern Stack">
+    <meta property="fb:admins" content="APP_ADMIN">
+
+    <link id="twitterBootstrapLess" rel="stylesheet/less" href="/bootstrapmagic/assets/twitter-bootstrap/less/bootstrap.less">
+
+
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/modules/aggregated.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script type="text/javascript" src="/modules/aggregated.js?group=header"></script>
+
+
+    {% for file in assets.core.css %}
+        <link rel="stylesheet" href="/{{file}}">
+    {% endfor %}
+	 <style type="text/css">
+        .navbar-fixed-top {background-color: #00B0EC; border-color: #00B0EC;}
+
+        .navbar-inverse .navbar-nav > li > a,
+        .navbar-inverse .navbar-brand{
+            color: #fff;
+        }
+        .navbar-inverse .navbar-nav > li > a:hover,
+        .navbar-inverse .navbar-nav > li > a:focus,
+        .navbar-inverse .navbar-brand:hover,
+        .navbar-inverse .navbar-brand:focus {
+            color: #BDE5FC;
+        }
+
+        .navbar-inverse .navbar-nav > .dropdown > a .caret {
+            border-top-color: #fff;
+            border-bottom-color: #fff;
+        }
+
+        .navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+            border-top-color: #BDE5FC;
+            border-bottom-color: #BDE5FC;
+        }
+
+        .logo a:hover {color: #fff}
+        .navbar-fixed-top + .content {padding-top: 30px}
+
+
+        .select-tool{position:fixed; top : 8px; z-index : 1030; left : 50%; margin-left : -237px;width: 100%;}
+        .select-tool select{ float: left;
+            margin-right: 1%;
+            width: 24%;}
+
+         .selectpicker{
+             width:200px !important ;
+         }
+        .protected #menuBottom {
+            background-color: #00B0EC; border-color: #00B0EC;
+        }
+        .wrapper{
+            width: 800px;
+            margin: 0 auto;
+        }
+        
+        .glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+
+
+
+    </style>
+
+    <link rel="stylesheet" href="/bootstrapmagic/assets/css/custom/block_management_flexslider.css">
+    <link rel="stylesheet" href="/bootstrapmagic/assets/css/custom/menublock.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+</head>

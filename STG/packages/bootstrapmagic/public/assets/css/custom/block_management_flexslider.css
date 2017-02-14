@@ -1,0 +1,231 @@
+/** Write your own styles here. *
+.adminarea-flex{}
+.adminarea-flex .flexslider.inner-slides li p.caption{left:120px}
+.adminarea-flex .flexslider.inner-slides li p.tags{
+    font-family: 'Open Sans', sans-serif;
+    right: 20px;
+    left: initial;
+    padding: 2px 10px;;
+    color: #FFF;
+    background-color: #252525;
+    bottom: inherit;
+    top: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; } .video iframe, .video object, .video embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.flexslider-default{position: relative;padding-bottom: 40px;}
+.flexslider-default ul li {position: relative;overflow: hidden;}
+.flexslider-default img{height:auto !important;}
+.fs-default{position: relative;padding-bottom: 40px;}
+.fs-default ul li {position: relative;overflow: hidden; text-align: center;}
+.fs-default ul li img{height:100%!important;width:100% !important;}
+.fs-default .contentbox{height: auto !important;}
+.footer-partnerbox .fs-default{padding-bottom: 0px;}
+.adminarea-flex .flexslider.inner-slides li p.tags{display:none !important;}
+.adminarea-flex .flexslider .flxinnerbx{display:none !important;}
+.adminarea-flex .flexslider.inner-slides li p.caption{display:none !important;}
+
+.adminarea-flex .flexslider.inner-slides li p.tags{ font-size: 13px;}
+.adminarea-flex .flexslider.inner-slides li div.title-div p.flex-caption{font-size: 22px; padding: 10px;}
+.adminarea-flex .flexslider.inner-slides a.btn{padding: 5px 10px; border-radius: 4px; font-size: 15px; margin: 0px !important;}
+.adminarea-flex .flexslider.inner-slides li p.caption span {padding: 1px 0;}
+
+.adminarea-flex .flexslider.inner-slides li p.tags{ font-size: 13px;}
+.adminarea-flex .flexslider.inner-slides li div.title-div p.flex-caption{font-size: 22px; padding: 10px;}
+.adminarea-flex .flexslider.inner-slides a.btn{padding: 10px 10px; border-radius: 4px; font-size: 15px; margin-top: 10px;}
+.adminarea-flex .flexslider.inner-slides li p.caption span {padding: 1px 0;}
+.adminarea-flex .flex-control-paging li a{text-indent: -2000000px}
+.adminarea-flex .flex-control-nav{position: static;}
+
+.aspect_ratio_16-9 img{}
+.aspect_ratio_1-1 img{}
+.aspect_ratio_4-3 img{}
+
+ Mansfield BM Patch
+.general-content .flexslider-default ul{padding: 0px;margin: 0px;}
+.general-content .flexslider-default ul li p{margin: 0px}
+
+
+@media (min-width: 980px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 979px) {
+    .adminarea-flex .flex-direction-nav a{ bottom: 162px !important;}
+    .adminarea-flex .flexslider.inner-slides a.btn{ margin:0!important;}
+    #panelGeneral1 .span12 div{ background: none !important;}
+    .adminarea-flex .flexslider.inner-slides li div.title-div p.flex-caption{ font-size:22px !important; padding: 10px !important; }
+    .adminarea-flex .flexslider.inner-slides a.btn{ font-size: 16px !important;}
+    .adminarea-flex .flexslider .flxinnerbx{top: 13% !important; width: 245px !important;}
+}
+@media (max-width: 767px) {
+    .adminarea-flex .flex-direction-nav a{display:none !important;}
+    .adminarea-flex .flexslider.inner-slides li p.caption{ font-size: 13px!important;}
+    .adminarea-flex .flexslider.inner-slides a.btn{font-size: 12px!important; padding: 6px 11px!important; margin: 0!important;}
+    #panelGeneral1 .span12 div{ background: none !important;}
+    .adminarea-flex .flexslider.inner-slides li p.caption span {padding: 6px 0 !important;}
+    .adminarea-flex .flexslider.inner-slides li p.tags{display:none !important;}
+    .adminarea-flex .flexslider .flxinnerbx{display:none !important;}
+}
+
+.adminarea-flex .flexslider.inner-slides li div.title-div p.flex-caption{
+    font-size: 28px;
+    font-weight: bold;
+    color: #ea9217;
+    bottom:inherit;
+    background-color:rgba(0,0,0,0.5);
+    padding: 15px;
+    text-shadow: none;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    position: static;
+
+}
+.adminarea-flex .flexslider .flxinnerbx{
+    top: 27%;
+    left: 9.57%;
+    position: absolute;
+    width: 300px;
+}
+.adminarea-flex .flexslider.inner-slides a.btn{ text-transform: uppercase; color: #fff; padding: 10px 15px; background: #ea9217; border: 0;
+    border-radius: 6px; box-shadow:none; text-shadow: none; font-style:normal; font-weight: bold;  font-family: 'Open Sans', sans-serif; font-size: 18px;}
+.adminarea-flex .flexslider.inner-slides li p.caption{
+    top: inherit;
+    left:0px;
+    position:absolute;
+    bottom: -10px;
+    background-color:rgba(255,255,255,0.8);
+    padding: 10px 1%;
+    width:98%;
+    font-size: 16px;
+    color: #363636;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.adminarea-flex .flex-direction-nav .flex-prev {left:0;}
+.adminarea-flex .flex-direction-nav .flex-next {right:0;}
+.adminarea-flex .flex-direction-nav a{ bottom: 200px !important;}
+.adminarea-flex .flexslider.inner-slides li p.caption span{ padding:8px 0px; }
+.adminarea-flex .flexslider.inner-slides li button.caption_button{top: inherit; bottom:5px;right:0px;z-index:1000000; position:absolute;}
+.adminarea-flex .flexslider.inner-slides a.flxc-button{ margin-top: 15px; margin-left: 0px;}*/
+
+/*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+/* Browser Resets
+*********************************/
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+/* Icon Fonts
+*********************************/
+/* Font-face Icons */
+@font-face {
+	font-family: 'flexslider-icon';
+	src:url('../fonts/flexslider-icon.eot');
+	src:url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/flexslider-icon.woff') format('woff'),
+		url('../fonts/flexslider-icon.ttf') format('truetype'),
+		url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; position: relative; } /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { margin: 0 0 60px; background: #fff; position: relative; zoom: 1; }
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 300px; }
+.flexslider .slides { zoom: 1; }
+.carousel li { margin-right: 5px; }
+
+/* Direction Nav */
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a  { text-decoration:none; display: block; width: 50px; height: 50px; margin: -25px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.flex-direction-nav .flex-prev { left: -50px; }
+.flex-direction-nav .flex-next { right: -50px; text-align: right; }
+.flexslider:hover .flex-prev { opacity: 0.7; left: 10px; }
+.flexslider:hover .flex-next { opacity: 0.7; right: 10px; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+.flex-direction-nav a:before  { font-family:'FontAwesome'; font-size: 50px; display: inline-block; content: '\f104'; line-height: 1; width: 100%; text-align: center; }
+.flex-direction-nav a.flex-next:before  { content: '\f105'; }
+
+/* Pause/Play */
+.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
+.flex-pauseplay a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
+.flex-pauseplay a:hover  { opacity: 1; }
+.flex-pauseplay a.flex-play:before { content: '\f003'; }
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: center;}
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+.tpse-image-block .video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+.tpse-image-block .video iframe,
+.tpse-image-block .video object,
+.tpse-image-block .video embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev { opacity: 1; left: 0px;}
+  .flex-direction-nav .flex-next { opacity: 1; right: 0px;}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px){
+    .tpse-image-block .flex-image-title{ top: 35%; }
+    .tpse-image-block .flex-image-title .flex-image-caption a{ font-size: 24px; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .tpse-image-block .flex-image-title{ top: 35%; }
+    .tpse-image-block .flex-image-title .flex-image-caption a{ font-size: 28px; }
+}
+
+@media screen and (max-width: 767px){
+    .tpse-image-block .flex-image-title{ left: 15%; top: 30%; }
+    .tpse-image-block .flex-image-title .flex-image-caption a{ font-size: 18px; line-height: 1.2; }
+}

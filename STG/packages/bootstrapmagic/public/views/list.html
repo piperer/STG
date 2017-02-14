@@ -1,0 +1,73 @@
+<section data-ng-controller="VersionsController" data-ng-init="find()">
+
+  <!---  {{ versions }} -->
+
+	 <div>
+			
+            <div class="row">
+
+                 <table class="table">
+
+
+                    <thead>
+                       <tr>
+                        <th>Version Title</th>
+                        <th>Version Description</th>
+
+                        <th>Creation</th>
+                        <th colspan="3">Actions</th >
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+                        <tr data-ng-repeat="version in versions">
+                            <td><a data-ng-href="#!/versions/{{version._id}}">{{version.title}}</a></td>
+
+                             <td>{{version.description}}</td>
+
+
+
+                             <td>{{version.user.name}}, {{version.created | date:'medium'}}</td>
+
+                             <td data-ng-if="global.user.roles.indexOf('admin') != -1">
+
+                                <a class="btn btn-default" href="/#!/versions/{{version._id}}/edit">
+                                    Edit
+                                </a>
+                                 
+                                 <a class="btn btn-info" href="/#!/versions/{{version._id}}/clone">
+                                    Clone
+                                </a> 
+
+                            </td>
+                            <td data-ng-if="global.user.roles.indexOf('admin') != -1">
+
+                                <a class="btn btn-danger" data-ng-click="remove(version);">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+
+
+                    </tbody>
+
+             </table>
+
+                      <!--- <div class="pull-left"><a data-ng-href="#!/versions/{{version._id}}">{{version.title}}</a></div>
+                                <div class="pull-left">: {{version.description}}</div>
+                                <div  class="pull-right" data-ng-if="global.user.roles.indexOf('admin') != -1">
+                                    <a class="btn" href="/#!/versions/{{version._id}}/edit">
+                                       EDIT     <span class="glyphicon glyphicon-edit"></span>
+                                    </a>
+                                    <a class="btn" data-ng-click="remove(version);">
+                                    DELETE    <i class="glyphicon glyphicon-trash"></i>
+                                    </a>
+                      </div>
+                        
+                      <span class="pull-right">{{version.user.name}}, {{version.created | date:'medium'}}</span> -->
+           <!-- </div>
+		</div>
+	
+	<h1 data-ng-hide="!versions || versions.length">No STG versions yet. <br> Why don't you <a href="/#!/versions/create">Create One</a>?</h1> -->
+</section>

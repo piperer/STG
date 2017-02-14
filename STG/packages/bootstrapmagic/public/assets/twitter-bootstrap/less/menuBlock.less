@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Main Menu Skin Styles */
+
+/*First Level Menu*/
+
+
+.tne-hrmenu{
+
+
+  font-size:@l1FontSize;
+  font-family: @l1FontFamily;
+  font-weight: @l1FontWeight;
+  background-color: @l1BgColor !important;
+
+  ul{
+    li > a{
+
+      color:@l1AnchorColor;
+
+      text-decoration:none;
+
+      span{
+
+        border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid @l1DownArrowColor;
+
+      }
+
+      &:hover{
+
+        color:@l1AnchorHoverColor;
+
+      }
+      &:visited{color:@l1AnchorVisitedColor};
+
+
+    }
+
+  }
+
+
+    /*First Level Menu Selected*/
+    ul li.tne-hrmenu-open > a{ background-color:@l1SelectedBgColor; color:@l1SelectedAnchorColor;}
+
+    ul li.tne-hrmenu-open > a:hover{color:@l1SelectedAnchorHoverColor}
+
+    ul li.tne-hrmenu-open > a:visited{color:@l1SelectedAnchorVisitedColor}
+
+
+    ul li.tne-hrmenu-open > a span{border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #0076c0;}
+
+
+  }
+
+/*Drop Level Top Links*/
+.tne-hrsub-toplink{ background:@menuAreaBgColor;}
+
+.tne-menulink > ul > li a{ font-size:@l3FontSize; text-decoration:none; color:@l3AnchorColor;font-family: @l3FontFamily;font-weight: @l3FontWeight}
+.tne-menulink > ul > li a:hover{color:@l3AnchorHoverColor;}
+.tne-menulink > ul > li a:visited{color:@l3AnchorVisitedColor;}
+.tne-menulink > ul > li a.leveltwo{ font-size:@l2FontSize;font-family: @l2FontFamily; text-decoration:none; color:@l2AnchorColor; font-weight: @l2FontWeight; }
+.tne-menulink > ul > li a.taillink{ font-size:@seeAllLinkFontSize; text-decoration:none; color:@seeAllLinkFontColor;}
+.tne-menulink > ul > li a:hover.leveltwo{ color:@l2AnchorHoverColor;}
+.tne-menulink > ul > li a:visited.leveltwo{ color:@l2AnchorVisitedColor;}
+.tne-menulink > ul > li a:hover.taillink{text-decoration:underline;}
+
+/*Drop Level Bottom Links*/
+.tne-hrsub-bottomlink{ background:@quickLinksBgColor; color:@quickLinksTitleFontColor; font-size:@quickLinksFontSize; text-transform:@quickLinksTextTransform;font-family: @quickLinksFontFamily;font-weight: @quickLinksFontWeight}
+.tne-hrsub-bottomlink ul li a{ text-decoration:none; color:@quickLinksAnchorColor;}
+.tne-hrsub-bottomlink ul li a:hover{color:@quickLinksAnchorHoverColor;}
+.tne-hrsub-bottomlink ul li a:visited{color:@quickLinksAnchorVisitedColor;}
+
+
+/*Search box*/
+.tne-main-searchbox{background:#efedf2;}
+.tne-main-searchbox input{background:#efedf2; color:#f3683c; font-family:'Swiss 721 W01 Extended'; font-size:27px; border-top:solid 1px #f3683c; border-bottom:solid 1px #f3683c; border-left:0; border-right:solid 1px #f3683c;  box-shadow:none; text-shadow:none; border-radius:0px; line-height:56px;}
+.tne-main-searchbox .tne-search-right button.btn{background:#f3683c; border-radius:0px; color:#f3683c; font-family:'Swiss 721 W01 Extended'; font-size:20px; text-align:center; box-shadow:none; text-shadow:none; color:#fff; text-transform:uppercase; border:solid 1px #f3683c; line-height:40px;}
+.tne-main-searchbox .btn-group > .btn{ color:#f3683c; background:#efedf2; border-radius:0px; box-shadow:none; text-shadow:none; font-family:'Swiss 721 W01 Extended'; font-size:20px; text-align:center; border:solid 1px #f3683c; line-height:40px;}
+.tne-main-searchbox .bootstrap-select.btn-group .btn .filter-option{ text-align:center;}
+.tne-main-searchbox .dropdown-menu > li > a{ color:#f3683c;}
+.tne-main-searchbox .dropdown-menu > li > a:hover{ color:#fff; background:#f3683c;}
+.tne-main-searchbox .btn-group.open .btn.dropdown-toggle{background:#efedf2;}
+.tne-main-searchbox .btn-group > .btn .caret{border-top: 4px solid #f3683c;}
+.tne-main-searchbox .bootstrap-select.btn-group .dropdown-menu{ border-radius:0px;  box-shadow:none; text-shadow:none; background:#efedf2; font-family:'Swiss 721 W01 Extended'; font-size:20px; color:#f3683c; border:solid 1px #f3683c; text-align:center;}
+.tne-main-searchbox input::-webkit-input-placeholder{ color:#f3683c;}
+.tne-main-searchbox input:-moz-placeholder{ color:#f3683c;}
+.tne-main-searchbox input::-moz-placeholder{ color:#f3683c;}
+.tne-main-searchbox input:-ms-input-placeholder{ color:#f3683c;}
+
+/********** MEDIUM SCREEN STARTS **********/
+@media (min-width: 980px) and (max-width: 1199px) {
+  .tne-hrmenu{font-size:@l1FontSize - 1;}
+  .tne-hrmenu ul li{background:none;}
+  .tne-hrmenu ul li > a span {border-left: 4px solid rgba(0, 0, 0, 0); border-right: 4px solid rgba(0, 0, 0, 0); border-top: 4px solid @l1DownArrowColor;}
+  .tne-hrmenu ul li.tne-hrmenu-open > a span{border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 4px solid #0076c0;}
+  .tne-menulink > ul > li a.leveltwo{ font-size:@l2FontSize - 1;}
+  .tne-menulink > ul > li a.taillink{ font-size:@seeAllLinkFontSize - 1;}
+  .tne-hrsub-bottomlink{font-size:@quickLinksFontSize - 1;}
+  .tne-main-searchbox input{ font-size:24px; line-height:42px;}
+  .tne-main-searchbox .tne-search-right button.btn{line-height:34px;}
+  .tne-main-searchbox .btn-group > .btn{line-height:34px;}
+}

@@ -1,0 +1,59 @@
+
+/* table-block */
+
+.tpse-table-block{
+  .table-title{
+    color: @titleFontColor;
+    font-weight: @titleFontWeight;
+    font-style: @titleFontStyle;
+    font-size: @titleFontSize;
+    font-family: @tableFontFamily, sans-serif;
+    text-transform: @titleTransform;
+  }
+
+  .table{
+    font-size: @tableFontSize;
+    border-color: @tableBorderColor;
+    font-family: @tableFontFamily, sans-serif;
+    font-style: @tableFontStyle;
+    font-weight: @tableFontWeight;
+
+    th{
+      text-transform: @thTextTransform;
+      border-color: @tableBorderColor;
+    }
+
+    td{
+      border-color: @tableBorderColor;
+    }
+
+  }
+
+  thead{
+    th{
+      background-color: @theadBgColor;
+    }
+  }
+
+  tbody{
+    background-color: @tbodyBgColor;
+  }
+
+  .table-bordered{
+    //border-color: @stripedBorderColor;
+  }
+
+  .table-striped{
+    tbody{
+          tr{
+            &:nth-child(odd) td{
+              background-color:@stripedOddBgColor;
+            }
+            &:nth-child(even) td{
+              background-color:@stripedEvenBgColor;
+            }
+          }
+      }
+  }
+
+}

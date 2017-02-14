@@ -1,0 +1,134 @@
+/* ~ /* text-block */
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300,800);
+
+h1,h2,h3,h4,h5,h6{
+  color: @headingFontColor;
+  font-family: @headingFontFamily, sans-serif;
+  font-style:@headingFontStyle;
+  font-weight:@headingFontWeight;
+  line-height: @headingLineHeight;
+  margin-top: @headingMarginTop;
+  margin-bottom: @headingMarginBottom;
+  text-transform: @headingTextTransform;
+    a{
+      color: @headingAnchorColor;
+      &:hover{color:@headingAnchorHoverColor};
+      &:visited{color:@headingAnchorVisitedColor};
+    }
+  }
+.tpse-text-block{
+
+    h1{
+        font-family: @h1FontFamily, sans-serif;
+        font-size: @h1FontSize;
+        font-weight:@h1FontWeight;
+        font-style:@h1FontStyle;
+        line-height: @h1LineHeight;
+        color: @h1FontColor;
+        margin: @h1Margin;
+        
+    }
+    h2{
+      
+        font-size: @h2FontSize;
+        font-size: @h2FontSize;
+        font-weight:@h2FontWeight;
+        font-style:@h2FontStyle;
+        line-height: @h2LineHeight;
+        color: @h2FontColor;
+        margin: @h2Margin;
+    }
+    h3{
+      
+        font-size: @h3FontSize;
+        font-size: @h3FontSize;
+        font-weight:@h3FontWeight;
+        font-style:@h3FontStyle;
+        line-height: @h3LineHeight;
+        color: @h3FontColor;
+        margin: @h3Margin;
+    }
+    h4{
+      
+       font-size: @h4FontSize;
+        font-size: @h4FontSize;
+        font-weight:@h4FontWeight;
+        font-style:@h4FontStyle;
+        line-height: @h4LineHeight;
+        color: @h4FontColor;
+        margin: @h4Margin;
+    }
+    h5{
+      
+       font-size: @h5FontSize;
+        font-size: @h5FontSize;
+        font-weight:@h5FontWeight;
+        font-style:@h5FontStyle;
+        line-height: @h5LineHeight;
+        color: @h5FontColor;
+        margin: @h5Margin;
+    }
+    h6{
+      
+       font-size: @h6FontSize;
+        font-size: @h6FontSize;
+        font-weight:@h6FontWeight;
+        font-style:@h6FontStyle;
+        line-height: @h6LineHeight;
+        color: @h6FontColor;
+        margin: @h6Margin;
+    }
+    p{
+      color: @paragraphFontColor;
+      font-size: @paragraphFontSize;
+      font-weight:@paragraphFontWeight;
+      font-style: @paragraphFontStyle;
+      font-family:@paragraphFontFamily;
+      .lead{
+        font-size:@paragraphLeadFontSize;
+      }
+      a{
+        color: @paragraphAnchorColor;
+        &:hover{color:@paragraphAnchorHoverColor};
+        &:visited{color:@paragraphAnchorVisitedColor};
+      }
+    }
+    li{
+      font-family: @LiFontFamily;
+      font-size: @LiFontSize;
+      font-style: @LiFontStyle;
+      font-weight: @LiFontWeight;
+      padding-top: @LiPaddingTop;
+      padding-bottom: @LiPadingBottom;
+    }
+    li > a{
+      color:@LiAnchorColor;
+      &:hover{color:@LiAnchorHoverColor};
+      &:visited{color:@LiAnchorVisitedColor};
+    }
+
+    .button-default{
+      font-family:@buttonFontFamily;
+      font-weight: @buttonFontWeight;
+      font-style: @buttonFontStyle;
+      font-size: @buttonFontSize;
+      color:@buttonColor;
+      display: inline-block;
+      padding: @buttonPadding;
+      margin-bottom: @buttonMarginBottom;
+      background-color: @buttonDefaultBgColor;
+      text-transform: @buttonTextTransform;
+      border-radius: @buttonBorderRadius;
+
+    }
+    .button-primary{
+      background-color: @buttonPrimaryBgColor;
+
+    }
+    .button-large{
+      font-size: @buttonLargeFontSize;
+    }
+    .button-small{
+      font-size: @buttonSmallFontSize;
+    }
+}

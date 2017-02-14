@@ -1,0 +1,119 @@
+
+/* Media Block */
+
+
+.tpse-image-block{
+
+  .flex-control-paging{
+
+    li{
+
+      a{
+         border-radius: 0;
+      }
+    }
+
+  }
+
+  .caption{
+    overflow: auto;
+    padding: @captionPadding;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: @captionBgColor;
+    font-family: @captionFontFamily;
+    font-size: @captionFontSize;
+
+    span{
+      padding: 6px 0px;
+
+        a{
+          color: @captionAnchorColor;
+
+          &:hover{color:@captionAnchorHoverColor};
+          &:visited{color:@captionAnchorVistedColor};
+
+        }
+    }
+  }
+
+  .flex-caption-btn{
+
+    color: @captionButtonFontColor;
+    font-family: @captionButtonFontFamily, sans-serif;
+    font-style: @captionButtonFontStyle;
+    font-size: @captionButtonFontSize;
+    font-weight: @captionButtonFontWeight;
+    text-transform: @captionButtonTextTransform;
+    background-color: @captionButtonBgColor;
+
+  }
+
+  .flex-image-btn{
+
+    color: @imageButtonFontColor;
+    font-family: @imageButtonFontFamily, sans-serif;
+    font-style: @imageButtonFontStyle;
+    font-size: @imageButtonFontSize;
+    font-weight:  @imageButtonFontWeight;
+    text-transform:  @imageButtonTextTransform;
+    background-color: @imageButtonBgColor;
+
+  }
+
+
+  .flex-image-title{
+
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 40%;
+
+  }
+  .flex-image-title {
+    .flex-image-caption{
+      a{
+        font-family: @imageTitleFontFamily;
+        font-size:@imageTitleFontSize;
+        font-style: @imageTitleFontStyle;
+        color:@imageTitleFontColor;
+        line-height:@imageTitleLineHeight;
+        padding:@imageTitlePadding;
+        background-color: @imageTitleBgColor;
+        display: block;
+      }
+
+    }
+
+  }
+
+  .flex-direction-nav{
+
+    a{
+      background-color: @imageNavBgColor;
+      text-align: center !important;
+    }
+
+  }
+
+  .flexslider{
+
+    &:hover{
+
+      .flex-prev{
+        left: 0;
+      }
+
+      .flex-next{
+        right: 0;
+      }
+
+    }
+  }
+
+
+}
+
+
